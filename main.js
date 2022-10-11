@@ -1,2 +1,10 @@
 console.log("hello!!!");
 console.log("adding comment features");
+const linkElm = document.querySelectorAll("a");
+console.log(linkElm);
+const linksElm = linkElm[0];
+linksElm.style.color = "yellow";
+linksElm.textContent = "Google.com";
+linksElm.innerHTML = "<span>Google.com</span>";
+linksElm.setAttribute("href", "https://google.com");
+linksElm.style.textDecoration = "none";
