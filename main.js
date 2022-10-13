@@ -1,5 +1,5 @@
-console.log("hello!!!");
-console.log("adding comment features");
+// console.log("hello!!!");
+// console.log("adding comment features");
 const linkElm = document.querySelectorAll("a");
 console.log(linkElm);
 const linksElm = linkElm[0];
